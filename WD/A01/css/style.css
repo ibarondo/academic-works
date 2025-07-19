@@ -1,0 +1,292 @@
+@import url('https://fonts.cdnfonts.com/css/samsungone');
+
+:root {
+    --samsungOne-font: 'SamsungOne', arial, sans-serif;
+    --samsungSharp-font: 'Samsung Sharp Sans', arial, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: var(--samsungOne-font);
+    color: black;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: var(--samsungSharp-font);
+    font-weight: 700;
+    color: white
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-family: var(--samsungOne-font);
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.bordered-text {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px 10px
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: white;
+}
+
+/* body content */
+.img-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+    z-index: 1;
+}
+
+.overlay h3 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 26px;
+    margin: 0 0 16px;
+}
+
+.overlay h1 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.overlay p {
+    font-family: var(--samsungOne-font);
+    font-size: 16px;
+    margin: 24px 0 0;
+}
+
+/* buttons */
+.btnContainer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.overlay .btnContainer button {
+    margin: 40px 0 0;
+    font-family: var(--samsungOne-font);
+    font-size: 16px;
+    color: white;
+    font-weight: 900;
+}
+
+.btnContainer .btn-contact {
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    padding: 10px 0 11px;
+}
+
+.btnContainer .btn-contact:focus,
+.btnContainer .btn-contact:active {
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.btnContainer .btn-buy {
+    margin: 0 0 0 20px;
+    border-radius: 50px;
+    background-color: black;
+    padding: 9px 23px 10px;
+}
+
+.btnContainer .btn-buy:hover {
+    background-color: white;
+    color: black !important;
+    border: 1.5px solid black !important;
+}
+
+.btn.btn-buy1 {
+    background-color: transparent;
+    border: 1.5px solid black !important;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.btn.btn-buy1:hover {
+    background-color: black;
+    color: white !important;
+    border: 1.5px solid black !important;
+}
+
+
+/* content1 */
+
+.rowContent {
+    text-align: center;
+}
+
+.rowContent h4 {
+    font-family: var(--samsungOne-font);
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 0 16px;
+}
+
+.rowContent h1 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0 0 8px;
+}
+
+.rowContent p {
+    font-family: var(--samsungOne-font);
+    font-size: 18px;
+    margin: 24px 0 0;
+}
+
+.rowContent button {
+    border-radius: 50px;
+    border: 1.5px solid var(--secondary-color) !important;
+    margin: 36px -10px 0;
+    padding: 9px 23px 10px;
+    font-family: var(--samsungOne-font);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* content2 */
+.rowContent1 h1 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.rowContent1 p {
+    font-family: var(--samsungOne-font);
+    font-size: 18px;
+}
+
+.rowContent2 {
+    text-align: center;
+}
+
+.rowContent2 h4 {
+    font-family: var(--samsungOne-font);
+    font-weight: 900;
+    font-size: 16px;
+    margin: 40px 0 16px;
+}
+
+.rowContent2 h1 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+
+#versatile .title3 {
+    font-family: var(--samsungSharp-font);
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.rowContent3 .versionContent {
+    cursor: pointer;
+}
+
+.versionContent .v1:focus,
+.versionContent .v1:active,
+.versionContent .v2:focus,
+.versionContent .v2:active,
+.versionContent .v3:focus,
+.versionContent .v3:active {
+    border: dotted 1px var(--secondary-color);
+}
+
+.versionContent div {
+    margin-bottom: 70px;
+}
+
+.versionContent span.h4 {
+    font-family: var(--samsungOne-font);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.versionContent span.p {
+    font-family: var(--samsungOne-font);
+    font-size: 19px;
+}
+
+
+/* media queries */
+@media (max-width: 575.98px) {
+
+    .overlay {
+        position: absolute;
+        top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+        width: 100%;
+        height: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        z-index: 1;
+    }
+
+    .rowContent {
+        padding: 16px 0 !important;
+        margin: 15px !important;
+        text-align: left;
+    }
+
+    #readyForWork {
+        padding: 16px 0 !important;
+        margin: 15px !important;
+    }
+
+    .rowContent1 img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .rowContent1 .ruggedContent {
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+}
