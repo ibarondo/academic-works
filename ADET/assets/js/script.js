@@ -1,7 +1,7 @@
 var projects = [
     {
-        "Title": "Philippines",
-        "Description": "A responsive website showcasing Paris, known as the City of Love. Built using Bootstrap for layout and responsiveness, with additional CSS for styling enhancements. This project highlights key landmarks, cultural attractions, and the romantic charm of Paris through clean design and organized structure.",
+        "Title": "Philippines | A Simple MVC Website",
+        "Description": "A PHP website showcasing the Philippines using a simple MVC architecture and URL GET variables to navigate between pages. No database was used as per project requirements.",
         "imgDesktop1": "A02/01.png",
         "imgDesktop2": "A02/02.png",
         "imgDesktop3": "A02/03.png",
@@ -11,8 +11,8 @@ var projects = [
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET/A02"
     },
     {
-        "Title": "Works, Words, and a Camera",
-        "Description": "A responsive website showcasing Paris, known as the City of Love. Built using Bootstrap for layout and responsiveness, with additional CSS for styling enhancements. This project highlights key landmarks, cultural attractions, and the romantic charm of Paris through clean design and organized structure.",
+        "Title": "Works, Words, and a Camera ",
+        "Description": "A website showcasing a portfolio using a bento-style layout. Additional pages include a daily quotes page and a simple photobooth feature. Built with Bootstrap for responsive design and enhanced with custom CSS styling.",
         "imgDesktop1": "A03/01.png",
         "imgDesktop2": "A03/02.png",
         "imgDesktop3": "A03/03.png",
@@ -22,8 +22,8 @@ var projects = [
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET/A03"
     },
     {
-        "Title": "POS",
-        "Description": "A responsive website showcasing Paris, known as the City of Love. Built using Bootstrap for layout and responsiveness, with additional CSS for styling enhancements. This project highlights key landmarks, cultural attractions, and the romantic charm of Paris through clean design and organized structure.",
+        "Title": "Shopifitsy | POS System",
+        "Description": "Shopifitsy is a front-end, one-page POS system web application. It features responsive design using Bootstrap, dynamic page loading via JavaScript, and simulates core POS functions like product selection, order summary, and payment calculation.",
         "imgDesktop1": "A04/01.png",
         "imgDesktop2": "A04/02.png",
         "imgDesktop3": "A04/03.png",
@@ -33,8 +33,8 @@ var projects = [
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET/A04"
     },
     {
-        "Title": "Today | Weather Forecast",
-        "Description": "A responsive website showcasing Paris, known as the City of Love. Built using Bootstrap for layout and responsiveness, with additional CSS for styling enhancements. This project highlights key landmarks, cultural attractions, and the romantic charm of Paris through clean design and organized structure.",
+        "Title": "Weather Forecast | An Embed Web App",
+        "Description": "A responsive weather app embedded in another site, displaying live temperature, humidity, and weather conditions via a public API. Built with HTML, CSS, JavaScript, and Bootstrap.",
         "imgDesktop1": "A07/01.png",
         "imgDesktop2": "A07/02.png",
         "imgDesktop3": "A07/03.png",
