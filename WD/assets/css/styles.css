@@ -37,17 +37,30 @@ span {
 }
 
 .btn-docs:hover,
-.btn-docs:active,
-.btn-docs:focus,
 .btn-view:hover {
-    background:  #2C2C2C !important;
+    background: #2C2C2C !important;
     color: white !important;
     border: none !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
 }
 
+.btn-view-sm,
+.btn-docs-sm {
+    background: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+.btn-docs-sm:hover,
+.btn-view-sm:hover{
+background: #2C2C2C !important;
+color: white !important;
+border: none !important;
+box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
 i {
-    color: white;
     font-size: 16px;
 }
 

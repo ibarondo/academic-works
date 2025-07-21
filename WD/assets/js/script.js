@@ -65,8 +65,8 @@ function displayProjects() {
                         <h5>${project.Title}</h5>
                         <p style="font-size: 14px;">${project.Description}</p>
                         <div class="card-btn d-flex gap-2">
-                            <a href="${project.viewSite}" class="btn btn-view"><i class="bi bi-box-arrow-up-right"></i></a>
-                            <a href="${project.gitHubDocs}" class="btn btn-docs"><i class="bi bi-github"></i></a>
+                            <a href="${project.viewSite}" class="btn btn-view-sm"><i class="bi bi-box-arrow-up-right"></i></a>
+                            <a href="${project.gitHubDocs}" class="btn btn-docs-sm"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
