@@ -8,3 +8,32 @@ html, body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.btn-view {
+    background: rgba(94, 34, 23) !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+.btn-view:hover {
+    background:  #2C2C2C !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+i {
+    color: white;
+    font-size: 16px;
+}
+
+span {
+    color:  rgba(94, 34, 23) ;
+    font-weight: 700;
+}
