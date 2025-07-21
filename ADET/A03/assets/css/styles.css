@@ -11,43 +11,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* navbar */
-/* .navbar {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    padding: 0 10px;
+.heading {
+    font-size: 32px;
+    font-weight: 700;
 }
 
-.navbar-brand {
-    font-size: 30px;
-    padding-left: 20px;
+span {
+    color: var(--primary-color);
+    text-shadow:
+        0 6px 5px var(--tertiary-color),
+       -6px 0 5px var(--tertiary-color);
 }
 
-.icon-pages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 40px;
-}
-
-.icon-pages a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 30px;
-} */
 
 /* cards */
 .cards {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -95,7 +77,6 @@
 
 @media screen and (max-width: 576px) {
     .cards {
-        margin-top: 70px; 
         margin-bottom: 70px;
     }
     
