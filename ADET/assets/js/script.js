@@ -7,7 +7,7 @@ var projects = [
         "imgDesktop3": "A02/03.png",
         "imgDesktop4": "A02/04.png",
         "imgMobile": "A02.png",
-        "viewSite": "A02/index",
+        "viewSite": "A02/",
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET/A02"
     },
     {
