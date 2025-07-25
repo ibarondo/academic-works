@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'MabryPro-Regular';
+    src: url('../fonts/MabryPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Landour-RegularDisplay';
+    src: url('../fonts/Landour-RegularDisplay.woff') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #5E2217;
+}
+
+h3 {
+    font-weight: 700;
+    font-family: 'MabryPro-Regular', sans-serif;
+}
+
+p {
+    font-family: 'Landour-RegularDisplay', sans-serif;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.sub-heading {
+    font-size: 16px;
+}
+
+
+span {
+    color: var(--primary-color);
+}
+
+.btn-view,
+.btn-docs {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+.btn-docs:hover,
+.btn-view:hover {
+    background: #2C2C2C !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+.btn-view-sm,
+.btn-docs-sm {
+    background: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+.btn-docs-sm:hover,
+.btn-view-sm:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+}
+
+i {
+    font-size: 16px;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.icon i {
+    font-size: 32px;
+}
+
+.card {
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* height: 300px; */
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h3 {
+    font-weight: 700;
+}
