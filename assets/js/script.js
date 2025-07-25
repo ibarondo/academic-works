@@ -1,14 +1,14 @@
 var projects = [
     {
         "title": "Web Development",
-        "description": "A simple one-page HTML project designed to highlight the key features and design of the Samsung Galaxy XCover Pro. Built using pure CSS for styling, this project demonstrates basic front-end development skills, focusing on responsive design and clean visual presentation.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impeditiure asperiores laborum ipsum excepturi, dolore deleniti optio doloribus architecto officiis ipsam amet voluptas maxime expedita, autem, vero culpa accusamus!",
         "icon": "bi bi-code-slash",
         "viewSite": "https://ibarondo.github.io/academic-works/WD",
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/WD"
     },
     {
         "title": "App Dev. and Emerging Tech.",
-        "description": "A responsive website showcasing Paris, known as the City of Love. Built using Bootstrap for layout and responsiveness, with additional CSS for styling enhancements. This project highlights key landmarks, cultural attractions, and the romantic charm of Paris through clean design and organized structure.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impeditiure asperiores laborum ipsum excepturi, dolore deleniti optio doloribus architecto officiis ipsam amet voluptas maxime expedita, autem, vero culpa accusamus!",
         "icon": "bi bi-cpu",
         "viewSite": "https://ibarondo.github.io/academic-works/ADET",
         "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET"
