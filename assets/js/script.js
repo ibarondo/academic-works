@@ -3,15 +3,13 @@ var projects = [
         "title": "Web Development",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impeditiure asperiores laborum ipsum excepturi, dolore deleniti optio doloribus architecto officiis ipsam amet voluptas maxime expedita, autem, vero culpa accusamus!",
         "icon": "bi bi-code-slash",
-        "viewSite": "https://ibarondo.github.io/academic-works/WD",
-        "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/WD"
+        "viewSite": "https://ibarondo.github.io/academic-works/WD"
     },
     {
         "title": "App Dev. and Emerging Tech.",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impeditiure asperiores laborum ipsum excepturi, dolore deleniti optio doloribus architecto officiis ipsam amet voluptas maxime expedita, autem, vero culpa accusamus!",
         "icon": "bi bi-cpu",
-        "viewSite": "https://ibarondo.github.io/academic-works/ADET",
-        "gitHubDocs": "https://github.com/ibarondo/academic-works/tree/main/ADET"
+        "viewSite": "https://ibarondo.github.io/academic-works/ADET"
     }
 ];
 
@@ -33,12 +31,8 @@ function displayProjects() {
                             <a target="_blank" href="${project.viewSite}"
                                 class="btn btn-view d-flex align-items-center gap-1 d-none d-xl-block">View
                                 Site <i class="bi bi-box-arrow-up-right"></i></a>
-                            <a target="_blank" href="${project.gitHubDocs}"
-                                class="btn btn-docs d-flex align-items-center gap-1 d-none d-xl-block">See
-                                Documentation <i class="bi bi-box-arrow-up-right"></i></a>
                             <a href="${project.viewSite}" class="btn btn-view-sm d-block d-xl-none"><i
                                     class="bi bi-box-arrow-up-right"></i></a>
-                            <a href="${project.gitHubDocs}" class="btn btn-docs-sm d-block d-xl-none"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>`;

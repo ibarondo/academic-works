@@ -60,7 +60,7 @@ function displayProjects() {
                 <!-- For SMALL SCREEN -->
                 <div class="col-12 d-block d-xl-none position-relative" style="height: 400px;">
                     <img src="./assets/img/mobile/${project.imgMobile}" alt="${project.Title}"
-                        style="border-radius: 20px; width: 100%; height: 100%; object-fit: cover;">
+                        style="border-radius: 8px; width: 100%; height: 100%; object-fit: cover;">
                     <div class="overlay-content">
                         <h5>${project.Title}</h5>
                         <p style="font-size: 14px;">${project.Description}</p>

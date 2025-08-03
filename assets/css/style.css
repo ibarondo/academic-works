@@ -45,16 +45,14 @@ span {
     color: var(--primary-color);
 }
 
-.btn-view,
-.btn-docs {
+.btn-view {
     background: var(--primary-color) !important;
     color: white !important;
     border: none !important;
-    border-radius: 10px;
+    border-radius: 6px !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
 }
 
-.btn-docs:hover,
 .btn-view:hover {
     background: #2C2C2C !important;
     color: white !important;
@@ -62,20 +60,19 @@ span {
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
 }
 
-.btn-view-sm,
-.btn-docs-sm {
+.btn-view-sm {
     background: white !important;
     color: black !important;
     border: none !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
 }
 
-.btn-docs-sm:hover,
 .btn-view-sm:hover {
     background: var(--primary-color) !important;
     color: white !important;
     border: none !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+    border-radius: 6px !important;
 }
 
 i {
@@ -92,7 +89,7 @@ i {
 
 .card {
     height: 100%;
-    border-radius: 20px;
+    border-radius: 8px;
     border: 2px solid var(--primary-color);
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
     cursor: pointer;
@@ -101,7 +98,8 @@ i {
 }
 
 .card:hover {
-    transform: scale(1.02);
+    transform: translate(6px, -6px);
+    box-shadow: -6px 6px 0 rgba(94, 34, 23);
 }
 
 .card h3 {

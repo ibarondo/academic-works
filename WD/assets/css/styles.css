@@ -38,7 +38,7 @@ span {
 
 .card {
     width: 80%;
-    border-radius: 20px;
+    border-radius: 8px;
     border: 2px solid #5E2217;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
     cursor: pointer;
@@ -46,7 +46,8 @@ span {
 }
 
 .card:hover {
-    transform: scale(1.02);
+    transform: translate(6px, -6px);
+    box-shadow: -6px 6px 0 rgba(94, 34, 23);
 }
 
 .card-text h3 {
@@ -58,7 +59,7 @@ span {
     background: rgba(94, 34, 23) !important;
     color: white !important;
     border: none !important;
-    border-radius: 10px;
+    border-radius: 6px !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
 }
 
@@ -84,6 +85,7 @@ span {
     color: white !important;
     border: none !important;
     box-shadow: 0 46px 130px rgba(94, 34, 23, 0.15);
+    border-radius: 6px !important;
 }
 
 i {
@@ -104,18 +106,18 @@ i {
     padding: 20px;
     opacity: 0;
     transition: opacity 0.5s ease;
-    border-radius: 20px !important;
+    border-radius: 8px !important;
 }
 
 .overlay-content:hover {
     opacity: 1;
-    border-radius: 20px !important;
+    border-radius: 8px !important;
 }
 
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 5px 15px rgba(94, 34, 23, 0.50);
 }
